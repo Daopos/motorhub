@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+
+}
+
+body {
+    background-color: #F29727;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #E6CE91;
+}
+
+.centernav {
+    display: flex;
+    gap: 240px;
+    padding: 30px;
+}
+
+.nav-a {
+    display: flex;
+    gap: 20px;
+}
+
+.centernav div a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.moto {
+    color: red;
+    font-weight: 700;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 100px;
+}
+
+.home-container img{
+    width: 400px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+
+.home-container div h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.home-container div h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.home-container div a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.home-container div h3:last-of-type {
+    margin-bottom: 40px;
+}
+
+.home-container div h3:first-of-type {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    .centernav {
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    .home-container {
+        flex-direction: column;
+        margin-top: 50px;
+        padding-bottom: 140px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+  }

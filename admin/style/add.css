@@ -1,0 +1,36 @@
+body {
+    background-color: #F29727;
+}
+
+.add-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white ;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+
+}
+
+.add-container input {
+    height: 30px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.add-container input:last-of-type {
+    background-color: #E6CE91;
+    border: none;
+    font-size: large;
+}
+
+.add h1 {
+    margin-bottom: 50px;
+}

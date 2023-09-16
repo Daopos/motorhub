@@ -1,0 +1,73 @@
+.view-container {
+    display: flex;
+    justify-content: center;
+}
+
+.view-box {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    padding: 50px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+
+.firstview img {
+    width: 400px;
+    height: 400px;
+}
+
+.secondview {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondview form  input[type=number] {
+    padding: 10px;
+    font-size: larger;
+    margin-top: 30px
+}
+
+.secondview form  h1{
+    margin-bottom: 20px;
+}
+
+.twoin {
+    margin-top: 20px;
+}
+.twoin input{
+width: 200px;
+height: 35px;
+}
+
+.twoin input:first-of-type{
+    background-color: #2980b9;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.twoin input:last-of-type{
+    background-color: #f39c12;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 1050px) {
+    
+    .firstview img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .secondview form  h1{
+        font-size: medium;
+    }
+  }

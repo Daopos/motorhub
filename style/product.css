@@ -1,0 +1,26 @@
+.product-container {
+    display: flex;
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box-product {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px ;
+    box-shadow: 0 0 10px;
+}
+
+.box-product img {
+    width: 280px;
+    height: 280px;
+}
+
+.product-container a {
+
+    text-decoration: none;
+}

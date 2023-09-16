@@ -1,0 +1,35 @@
+.account-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+
+.account-container div:first-of-type {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    border: 1px solid black;
+
+}
+
+.account-container h1:first-child i {
+    font-size: 230px;
+}
+
+.account-container div form input {
+    width: 200px;
+    height: 40px;
+    font-size:x-large;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
